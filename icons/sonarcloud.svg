@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#ef6c00" d="M11.985 2.949c-3.269 0-5.909 2.745-5.936 6.12-2.332.834-4.022 3.116-4.022 5.813 0 3.392 2.663 6.169 5.948 6.169 1.513-.003 2.943-.625 4.025-1.675 1.081 1.052 2.513 1.673 4.026 1.675 3.278 0 5.947-2.77 5.947-6.17v-.001c0-1.145-.314-2.26-.891-3.237a8.3 8.3 0 0 0-1.192-1.379l-.089-.081a5 5 0 0 0-.163-.14l-.02-.016-.037-.03a5.7 5.7 0 0 0-1.666-.945c-.036-3.36-2.669-6.103-5.93-6.103m.007 1.937c2.242 0 4.072 1.894 4.072 4.238v.002a4.32 4.32 0 0 1-1.717 3.46h-.002a.985.985 0 0 0-.218 1.33l.002.002c.179.262.47.41.766.41a.9.9 0 0 0 .546-.182c1.04-.78 1.769-1.882 2.16-3.115a4.24 4.24 0 0 1 2.51 3.855c-.006 2.337-1.836 4.234-4.085 4.234-2.24 0-4.07-1.895-4.071-4.238v-.002a.954.954 0 0 0-.932-.964h-.007a.95.95 0 0 0-.936.966v.002c0 1.08.317 2.077.788 2.961a3.97 3.97 0 0 1-2.894 1.28c-2.242 0-4.075-1.897-4.075-4.24 0-2.341 1.833-4.238 4.075-4.238.487 0 .957.09 1.412.258l.007.004.016.004.005.002.008.004c.07.025.154.061.23.098.08.04.156.09.155.09a.913.913 0 0 0 1.32-.11.98.98 0 0 0-.102-1.347l-.002-.002c-.362-.318-.864-.504-.994-.552h-.002a5.8 5.8 0 0 0-2.047-.374h-.01c.206-2.15 1.91-3.836 4.023-3.836z"/></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg  width="16px" height="16px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+>
+  <path fill="#fd6a00" data-iconColor="SonarCloud"
+        d="M22.406 10.9a7.088 7.088 0 00-3.377-2.358v-.085c0-4.035-3.156-7.324-7.047-7.324-3.893 0-7.05 3.282-7.05 7.325v.1C2.081 9.492 0 12.268 0 15.542c0 4.035 3.159 7.325 7.05 7.325a6.907 6.907 0 004.952-2.108 6.885 6.885 0 004.947 2.108c3.884 0 7.051-3.282 7.051-7.325a7.572 7.572 0 00-1.594-4.643zM16.95 21.014c-2.903 0-5.267-2.456-5.267-5.474a.91.91 0 00-.89-.924.906.906 0 00-.892.925c0 1.368.367 2.651.994 3.748a5.156 5.156 0 01-3.845 1.733c-2.904 0-5.27-2.457-5.27-5.474 0-3.016 2.366-5.473 5.27-5.473.63 0 1.241.117 1.827.335.007 0 .013.007.02.007.203.071.489.21.578.287a.858.858 0 001.249-.1.942.942 0 00-.097-1.3c-.39-.342-.995-.575-1.144-.63a6.814 6.814 0 00-2.425-.443c-.113 0-.225 0-.338.007.12-2.916 2.433-5.247 5.27-5.247 2.903 0 5.267 2.456 5.267 5.474a5.569 5.569 0 01-2.215 4.463.948.948 0 00-.21 1.283c.171.25.45.39.727.39a.86.86 0 00.516-.172 7.381 7.381 0 002.709-4.02c2.035.785 3.449 2.829 3.449 5.139-.007 3.01-2.371 5.466-5.283 5.466z"/>
+</svg>

@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 260 260"><path fill="#448aff" d="M73.123 212.264a99 99 0 0 1-6.865-5.18l98.605-170.789s4.059 1.506 7.412 3.113c4.226 2.026 7.726 4 7.726 4 47.796 27.596 64.198 88.805 36.602 136.6-27.595 47.798-88.804 64.198-136.6 36.603 0 0-3.347-1.924-6.879-4.346zm98.545-154.422L88.336 202.177c39.831 22.997 90.838 9.329 113.834-30.5 22.995-39.832 9.33-90.838-30.5-113.835zM47.944 187.19c-3.35-4.852-4.543-7.18-4.543-7.18-17.227-29.922-18.49-67.972 0-100s52.075-49.958 86.603-50c0 0 4.661-.011 8.543.36 5.847.56 9.735 1.315 9.735 1.315L53.986 195.011s-2.237-2.316-6.04-7.82zm72.084-139.903c-25.13 3.054-48.573 17.467-62.193 41.058-13.62 23.589-14.378 51.098-4.459 74.39z"/></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px">
+  <path fill="#2873C1" data-iconColor="Odin"
+        d="M90.0761566,452.8389893L344.8582764,11.5241251C704.1462402,180.816803,420.0758972,682.5715332,90.0761566,452.8389893z M362.9530334,70.4307251L149.9002991,438.6415405C383.2495728,563.7615356,600.7075806,239.4835052,362.9530334,70.4307251z M301.1986389,3.2728307L60.3563766,423.2029419C-87.0823135,228.6764832,51.8651428-32.2359543,301.1986389,3.2728307z M224.7775421,46.5009079c0,0-89.5439301,12.350914-148.2106323,98.0351791c-59.6329041,87.0954285-15.4386024,189.8948517-15.4386024,189.8948517L224.7775421,46.5009079z"/>
+</svg>

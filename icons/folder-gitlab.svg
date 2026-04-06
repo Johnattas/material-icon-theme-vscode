@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#757575" d="m13.844 7.536-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464"/><g data-mit-no-recolor="true"><path fill="#e53935" d="m31.35 17.703-.022-.063-2.339-6.097a.6.6 0 0 0-.24-.291.617.617 0 0 0-.928.353l-1.577 4.831h-6.39l-1.58-4.83a.62.62 0 0 0-.926-.354.6.6 0 0 0-.24.29l-2.337 6.1-.024.06a4.34 4.34 0 0 0 1.44 5.017l.009.006.02.015 3.556 2.667 1.764 1.333 1.072.81a.724.724 0 0 0 .873 0l1.072-.811 1.764-1.334 3.583-2.68.01-.008a4.34 4.34 0 0 0 1.44-5.014"/><path fill="#ef6c00" d="m31.35 17.703-.022-.063a7.9 7.9 0 0 0-3.143 1.413l-5.133 3.883 3.268 2.47 3.581-2.68.011-.009a4.34 4.34 0 0 0 1.44-5.014Z"/><path fill="#f9a825" d="m19.772 25.405 1.764 1.334 1.072.81a.724.724 0 0 0 .873 0l1.072-.81 1.766-1.334-3.27-2.469Z"/><path fill="#ef6c00" d="M17.912 19.053a7.9 7.9 0 0 0-3.141-1.412l-.024.062a4.34 4.34 0 0 0 1.44 5.016l.009.006.02.016 3.556 2.666 3.27-2.471Z"/></g></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
+     viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <path d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
+          fill="#e24329" data-folderColor="GitLab"/>
+
+  <g fill="#FFCDD2" transform="scale(0.5) translate(18 18)" data-folderIconColor="GitLab">
+        <polygon points="16 28.896 16 28.896 21.156 13.029 10.844 13.029 16 28.896"/>
+    <polygon points="16 28.896 10.844 13.029 3.619 13.029 16 28.896"/>
+    <path d="M3.619,13.029h0L2.052,17.851a1.067,1.067,0,0,0,.388,1.193L16,28.9,3.619,13.029Z"/>
+    <path d="M3.619,13.029h7.225L7.739,3.473a.534.534,0,0,0-1.015,0L3.619,13.029Z"/>
+    <polygon points="16 28.896 21.156 13.029 28.381 13.029 16 28.896"/>
+    <path d="M28.381,13.029h0l1.567,4.822a1.067,1.067,0,0,1-.388,1.193L16,28.9,28.381,13.029Z"/>
+    <path d="M28.381,13.029H21.156l3.105-9.557a.534.534,0,0,1,1.015,0l3.105,9.557Z"/>
+    </g>
+</svg>

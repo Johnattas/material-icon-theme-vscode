@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80"><defs><clipPath id="a"><path fill="#424242" d="M-2.983 69.251h69.412V2.143H-2.983z"/></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.1304 0 0 -1.1304 5.714 82.137)"><g stroke-width=".1"><path fill="#e53935" d="M61.216 37.276C61.216 20.217 47.39 6.39 30.33 6.39S-.554 20.218-.554 37.276 13.27 68.161 30.33 68.161c17.059 0 30.885-13.827 30.885-30.885"/><path fill="#d32f2f" d="m46.274 52.172-10.504.096-6.142 6.142-7.21-4.789 1.245-1.243-2.92.026-9.913-16.682H6.94l2.44-2.44-2.458-4.137L29.67 6.398q.33-.007.66-.008c17.042 0 30.858 13.806 30.885 30.841L46.273 52.173"/><path fill="#f5f5f5" d="M15.114 35.02c0 8.404 6.813 15.214 15.217 15.214s15.214-6.81 15.214-15.215zm34.206-.702v1.404h4.401a23.3 23.3 0 0 1-6.353 15.342l-3.289-3.29-.992.995 3.287 3.289a23.3 23.3 0 0 1-15.34 6.352l-.002-4.4h-1.404v4.4a23.3 23.3 0 0 1-15.34-6.352l3.288-3.29-.995-.991-3.288 3.287A23.32 23.32 0 0 1 6.94 35.722h4.4V34.32H6.921v-5.151H53.74v5.15h-4.42"/></g></g></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16px" height="16px"
+     viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+  <path fill="#de3b40" data-iconColor="Protractor"
+        d="M380.333313,273.1111145h-247C133.333313,227.7242126,166.5317383,146,256,146C368,146,380.333313,257.5830688,380.333313,273.1111145z M512,256c0,196.3383179-214.0074463,319.7159424-384.2888794,221.546875s-170.2814941-344.9245605-0.000061-443.093689S512,59.6616821,512,256z M451,324v-40.8888855h-41.666626V262.5h41.4993896c-1.8225098-47.4682617-20.8424072-88.4584351-49.5385742-119.6640625l-29.3642578,29.3642578l-14.8492432-14.8492432l29.2016602-29.2015991c-33.4263306-29.4012451-76.2097168-47.2977905-119.5015869-49.8238525v41.6218262h-21v-41.635376c-43.3592529,2.484436-86.1821899,20.2960815-119.5734253,49.7653809l29.2733765,29.2734375l-14.8492432,14.8492432l-29.4063721-29.4063721C82.7842407,173.8952026,63.9598999,214.8169556,62.1641235,262.5h41.0639648v20.6111145H62V324H451z"/>
+</svg>

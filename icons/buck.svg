@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#0277bd"><path d="M7.488 2.94h-1.51v4.273L7.82 9.054H5.61L3.197 6.642V2.94H1.595v4.383l3.278 3.278h4.42l1.584 1.584H6.64l3.573 3.683-5.23 5.194h2.062l5.23-5.267-1.989-1.99H20.86v.664l-4.567 2.725-3.831 3.868h2.173l2.615-2.652 5.157-3.094v-3.13h-4.862l-1.658-1.658 1.879-1.879V4.45H16.2v3.5l-1.528 1.51-1.363-1.428V4.45h-1.473v4.273l3.445 3.462h-2.102L7.488 6.55z"/><path d="M15.48 14.763h-2.062l.995 1.068z"/></g></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px">
+  <path fill="#4DB6AC" data-iconColor="Buck"
+        d="M389.1035156,259.7116394l-40.2094116-40.2094269l46.1893005-45.9830933V68.7684174h-37.7350159v89.0793457l-35.0543823,35.0543671l-34.6419678-34.6419678v-89.491745H249.917038v105.1631012l85.7801056,85.7801208h-53.4063721L144.960144,122.1747818V33.3016396h-37.7350082v104.5445099l46.1892929,46.3954926H99.5956573l-61.8606606-62.0668564V33.3016396H0v104.5445099l84.1304932,84.1304932h107.2251434l37.7350006,37.7350006H121.8655014l88.6669388,88.6669312L80.4188538,478.6983643h53.4063721l130.3197937-130.3197937l-51.1381531-51.1381226h261.2581482v18.7644043l-115.8856201,69.2839355l-93.6158142,93.4095764h52.9939575l61.8606567-62.066864L512,337.6560364v-77.9444275L389.1035156,259.7116394z M288.8892822,321.7784729l26.6000671,26.6000671l26.6000671-26.6000671H288.8892822z"/>
+</svg>

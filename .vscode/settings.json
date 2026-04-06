@@ -3,7 +3,12 @@
     "bun.lock": true
   },
   "files.exclude": {
-    "out": false
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "out": true
   },
   "search.exclude": {
     "out": true
@@ -24,5 +29,6 @@
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
   },
-  "github.copilot.chat.codeGeneration.useInstructionFiles": true
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "hide-files.files": []
 }

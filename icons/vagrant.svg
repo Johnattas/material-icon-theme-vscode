@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.625 140.625"><path fill="#1565c0" d="m70.315 132.051 23.269-13.42 36.445-89.24V18.084l-27.142 15.791v9.539L81.16 90.26l-10.846 7.494zM59.449 92.32l10.866-5.365V73.322L54.028 35.326v-10.75l-.112-.064-16.174 9.362v9.539z"/><path fill="#2979ff" d="M86.597 24.463v10.862L70.312 73.32v12.697l-10.862 6.3-21.708-48.904V33.86l16.285-9.38L26.88 8.577l-16.286 9.506v11.644l36.654 89.018 23.064 13.302V98.615l10.847-6.3-.128-.08 21.852-48.824v-9.554l27.148-15.775-16.286-9.507-27.131 15.886z"/></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512"
+     preserveAspectRatio="xMidYMid meet">
+  <path fill="#26A2C1" data-iconColor="Vagrant"
+        d="M506.9 36.7l-63.1-36.7-126.1 73.4v34.5l-64 166.8-63.6-165v-36.2l-126.7-73.5-63.3 36.6-0.1 37.3 158.6 383.6 95.1 54.4 94.9-54.7 158.7-384-0.4-36.5z"></path>
+</svg>

@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#8d6e63" d="M8.042 3.036a7 7 0 0 0-.737.237c-.527.22-.983.492-1.385.824a3 3 0 0 1-.275.21c-.126.056-.7.655-1.007 1.052-1.732 2.247-2.442 5.513-1.86 8.565.076.396.339 1.362.465 1.706.764 2.085 2.136 3.719 3.928 4.673 1.412.753 3.084 1.06 4.822.887.348-.034.524-.063 1.085-.165.233-.043 1.381-.385 1.659-.495 2.392-.946 4.365-2.582 5.572-4.618.506-.855.796-1.669 1.029-2.882.37-1.923-.502-4.262-2.324-6.229-2.643-2.854-6.788-4.459-10.18-3.942a8 8 0 0 0-.793.177zm.42 1.507c.28-.076.575-.139.813-.167a8 8 0 0 1 1.994.024c3.131.42 6.308 2.488 7.806 5.077.498.861.788 1.79.803 2.578.012.635-.129 1.18-.431 1.679a2.6 2.6 0 0 1-.549.647c-.613.538-1.455.876-2.501 1.005-.548.067-.92.206-1.23.46-.068.056-.642.588-1.279 1.182-1.248 1.166-1.237 1.157-1.42 1.104a.4.4 0 0 1-.15-.087c-.13-.122-.126-.16.079-1.224.105-.543.188-1.053.187-1.132a1.16 1.16 0 0 0-.297-.75c-.113-.125-.3-.244-.547-.35-2.359-1.007-4.343-2.776-5.295-4.722a5.2 5.2 0 0 1-.412-1.088c-.29-1.061-.22-1.913.219-2.683.322-.565.777-.964 1.487-1.302.178-.084.443-.175.723-.251"/></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 512 512">
+  <path fill="#8D6E63" data-iconColor="Coconut"
+        d="M259.016,219.094L328.5,80.156l112.844-75.25l17.75,26.625l-105.781,70.5l-58.531,117.063H259.016z M366.188,147.813
+	l-14.438,28.906c13.313,7.594,21.156,16.625,21.156,26.375c0,23.531-45.188,43-104.734,47.125l-29.266,47.875v-47.219
+	c-1.875-0.031-3.703-0.156-5.563-0.219l-32.438,102.438V248c-48.922-6.75-84-24.219-84-44.906c0-26.5,57.313-48,128-48
+	c3.484,0,6.75,0.281,10.156,0.375l15.75-31.5c-8.5-0.5-17.094-0.875-25.906-0.875c-106.031,0-192,36.281-192,160s85.969,224,192,224
+	s192-100.281,192-224C436.906,213.063,409.344,171.094,366.188,147.813z"/>
+</svg>

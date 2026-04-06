@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#616161" d="m13.844 7.536-1.288-1.072A2 2 0 0 0 11.276 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2H15.124a2 2 0 0 1-1.28-.464"/><path fill="#9e9e9e" d="M32 21a9 9 0 1 1-9-9 9.043 9.043 0 0 1 9 9"/><path fill="#fafafa" d="m27.929 24.628-4-10a1 1 0 0 0-.93-.628h-.006a1 1 0 0 0-.927.641L18 26h2l1.24-3.638 5.205 3.47a1 1 0 0 0 1.484-1.204m-5.954-4.18 1.043-2.71 1.858 4.644Z"/></svg>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg  clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.4142" version="1.1"
+     viewBox="0 0 24 24" width="16px" height="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <path d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"
+          fill="#ef5350" fill-rule="nonzero" data-folderColor="Ansible"/>
+  <path fill="#ffcdd2" transform="scale(0.02) translate(680 512)" data-folderIconColor="Ansible"
+        d="M242.2801361,99.7152863L367.7326355,396.881134L178.7697449,254.1788025L242.2801361,99.7152863z M464.9584351,465.8799133L272.0751038,19.7394505c-10.9573669-26.1266441-49.0272217-26.5111885-60.3739777,0L0,508.2203369h72.1351776l83.896347-201.5082092l250.1209106,194.4512939C434.5034485,527.9057007,480.6419373,500.9562683,464.9584351,465.8799133z"/>
+</svg>
