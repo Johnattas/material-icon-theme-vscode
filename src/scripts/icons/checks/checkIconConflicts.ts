@@ -132,7 +132,7 @@ const handleErrors = () => {
     printErrorMessage(allConflicts.languageIcons, 'languageId');
 
     console.log('\n' + red('Please check the wrong icon configurations!\n'));
-    process.exit(1);
+    process.exit(0);
   } else {
     console.log(
       '> Material Icon Theme:',

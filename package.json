@@ -1,8 +1,8 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
-  "version": "5.33.1",
+  "name": "max-big-icon-pack",
+  "displayName": "Max Big Icon Pack",
+  "description": "Max Big Icon Pack for Visual Studio Code",
+  "version": "1.2.55",
   "license": "MIT",
   "scripts": {
     "precompile": "rimraf dist && bun run verify",
@@ -29,11 +29,11 @@
     "postpublish": "git checkout package.json && git checkout README.md",
     "prepare": "husky"
   },
-  "publisher": "PKief",
+  "publisher": "johnattas",
   "author": {
-    "name": "Material Extensions",
-    "email": "material-icons-extensions@googlegroups.com",
-    "url": "https://github.com/material-extensions"
+    "name": "Johnattas Santana",
+    "email": "johnattas@gmail.com",
+    "url": "https://github.com/johnattas"
   },
   "funding": "https://github.com/sponsors/material-extensions",
   "sponsor": {
@@ -87,7 +87,7 @@
     "iconThemes": [
       {
         "id": "material-icon-theme",
-        "label": "Material Icon Theme",
+        "label": "Max Big Icon Pack",
         "path": "./dist/material-icons.json",
         "_watch": true
       }

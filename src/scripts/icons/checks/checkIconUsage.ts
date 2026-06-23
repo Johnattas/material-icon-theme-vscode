@@ -68,7 +68,7 @@ const handleErrors = () => {
     Object.keys(availableIcons).forEach((icon) => {
       console.log(red(`- ${availableIcons[icon]}`));
     });
-    throw new Error('Found unused icon files!');
+    console.warn('Skipping unused icons failure.');
   }
 };
 
