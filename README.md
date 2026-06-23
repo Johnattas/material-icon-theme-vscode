@@ -9,7 +9,7 @@
 <p align="center"><b>O maior pacote de ícones definitivo e de alta performance para o Visual Studio Code</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.2.56-4CAF50?style=for-the-badge&colorA=263238&colorB=4CAF50" alt="Versão">
+  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.2.57-4CAF50?style=for-the-badge&colorA=263238&colorB=4CAF50" alt="Versão">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge&colorA=263238&colorB=2196F3" alt="Licença">
   <img src="https://img.shields.io/badge/Status-Pronto%20para%20Uso-success?style=for-the-badge&colorA=263238&colorB=00E676" alt="Status">
   <img src="https://img.shields.io/badge/%C3%8Dcones-12.000%2B-orange?style=for-the-badge&colorA=263238&colorB=FF6F00" alt="Ícones">

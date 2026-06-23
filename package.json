@@ -2,7 +2,7 @@
   "name": "max-big-icon-pack",
   "displayName": "Max Big Icon Pack",
   "description": "The biggest icon pack for VS Code — 12,000+ icons for files, folders, frameworks and languages. Based on Material Icon Theme, enhanced with KDE Store's top 100 icon packs.",
-  "version": "1.2.56",
+  "version": "1.2.57",
   "license": "MIT",
   "scripts": {
     "precompile": "rimraf dist && bun run verify",
