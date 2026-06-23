@@ -55,13 +55,13 @@ Projetado para desenvolvedores modernos, o **Max Big Icon Pack** oferece reconhe
 ### Ícones de Arquivos
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/images/fileIcons.png" alt="Preview de ícones de arquivos" width="100%">
+  <img src="https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/images/fileIconsPreview.png" alt="Preview de ícones de arquivos" width="100%">
 </p>
 
 ### Ícones de Pastas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/images/folderIcons.png" alt="Preview de ícones de pastas" width="100%">
+  <img src="https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/images/folderIconsPreview.png" alt="Preview de ícones de pastas" width="100%">
 </p>
 
 ### Seleção de Cor das Pastas
