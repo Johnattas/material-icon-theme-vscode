@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 
 <p align="center">
-  <img src="index.jpeg" alt="Max Big Icon Pack Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/index.jpeg" alt="Max Big Icon Pack Banner" width="100%">
 </p>
 
 <h1 align="center">🎨 Max Big Icon Pack</h1>
@@ -101,6 +101,6 @@ Para criar a biblioteca visual mais rica possível para desenvolvedores, reunimo
 
 Agradecemos imensamente a todos que tornaram o projeto possível!
 
-[![Contribuidores](https://raw.githubusercontent.com/material-extensions/vscode-material-icon-theme/main/images/contributors.png)](https://github.com/material-extensions/vscode-material-icon-theme/graphs/contributors)
+[![Contribuidores](https://raw.githubusercontent.com/Johnattas/material-icon-theme-vscode/main/images/contributors.png)](https://github.com/Johnattas/material-icon-theme-vscode/graphs/contributors)
 
 *Desenvolvido com carinho para a comunidade por **Johnattas Santana**.*

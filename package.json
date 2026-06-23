@@ -42,13 +42,13 @@
   "engines": {
     "vscode": "^1.55.0"
   },
-  "homepage": "https://github.com/material-extensions/vscode-material-icon-theme/blob/main/README.md",
+  "homepage": "https://github.com/Johnattas/material-icon-theme-vscode/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-extensions/vscode-material-icon-theme.git"
+    "url": "git+https://github.com/Johnattas/material-icon-theme-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/material-extensions/vscode-material-icon-theme/issues"
+    "url": "https://github.com/Johnattas/material-icon-theme-vscode/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
