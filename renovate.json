@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", "helpers:pinGitHubActionDigests"],
-  "ignoreDeps": ["@types/vscode"],
+  "ignoreDeps": ["material-icon-theme"],
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
@@ -9,14 +9,14 @@
       "groupSlug": "github-actions"
     },
     {
-      "matchManagers": ["bun"],
-      "groupName": "Bun packages",
-      "groupSlug": "bun-packages"
+      "matchManagers": ["npm"],
+      "groupName": "NPM packages",
+      "groupSlug": "npm-packages"
     },
     {
       "matchPackageNames": ["@biomejs/biome"],
       "postUpgradeTasks": {
-        "commands": ["bun biome migrate --write"],
+        "commands": ["npx biome migrate --write"],
         "fileFilters": ["**/*"]
       }
     }
