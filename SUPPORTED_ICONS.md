@@ -1,7 +1,7 @@
 # Ícones adicionados (max-big-icon-pack)
 
-Total adicionado: 381
-- atom: 311
+Total adicionado: 375
+- atom: 305
 - afileicon: 70
 
 ## Adicionados
@@ -26,7 +26,7 @@ Total adicionado: 381
 | anyscript | atom | file | anyscript.svg | .any |
 | apl | atom | file | apl.svg | .apl.history |
 | arc | atom | file | arc.svg | .arc |
-| eclipse | atom | file | eclipse.svg | .aj |
+| eclipse | atom | file | eclipse.svg | .aj, .classpath |
 | asm-arm | atom | file | asm-arm.svg | .arm |
 | asm-avr | atom | file | asm-avr.svg | .avr |
 | asm-m68k | atom | file | asm-m68k.svg | .m68k, .lst |
@@ -72,7 +72,7 @@ Total adicionado: 381
 | delphi | atom | file | delphi.svg | .dfm, .dof, .dpr |
 | devicetree | atom | file | devicetree.svg | .dts, .dtsi |
 | digdag | atom | file | digdag.svg | .dig |
-| earth | atom | file | earth.svg | .zone, .arpa |
+| earth | atom | file | earth.svg | .zone, .arpa, .kml, .ncl |
 | docbook | atom | file | docbook.svg | .dbk, .docbook |
 | docpad | atom | file | docpad.svg | .eco |
 | doge | atom | file | doge.svg | .djs |
@@ -83,7 +83,6 @@ Total adicionado: 381
 | easybuild | atom | file | easybuild.svg | .eb |
 | ec | atom | file | ec.svg | .ec, .eh |
 | ecere | atom | file | ecere.svg | .epj |
-| eclipse | atom | file | eclipse.svg | .classpath |
 | eiffel | atom | file | eiffel.svg | .e |
 | emacs | atom | file | emacs.svg | .gnus, .viper, .ede |
 | em | atom | file | em.svg | .emberscript |
@@ -144,14 +143,13 @@ Total adicionado: 381
 | jison | atom | file | jison.svg | .jison, .jisonlex |
 | jolie | atom | file | jolie.svg | .ol, .iol |
 | jscpd | atom | file | jscpd.svg | .jscpd.html, .jscpd.xml |
-| sql | atom | file | sql.svg | .jq |
+| sql | atom | file | sql.svg | .jq, .ddl, .udf, .hql, .viw, .prc, .cql, .db2, .4gl, .per, .spsql |
 | jsonnet | atom | file | jsonnet.svg | .jsonnet, .libsonnet |
 | junos | atom | file | junos.svg | .jos, .slax |
 | kaitai | atom | file | kaitai.svg | .ksy |
 | keynote | atom | file | keynote.svg | .keynote, .knt |
 | kibo | atom | file | kibo.svg | .hypr, .hypr.live |
 | kicad | atom | file | kicad.svg | .kicad_pcb, .kicad_sch, .kicad_pcb-bak, .kicad_mod, .kicad_wks, .kicad_dru, .kicad_sym |
-| earth | atom | file | earth.svg | .kml |
 | krl | atom | file | krl.svg | .krl |
 | lark | atom | file | lark.svg | .lark |
 | lasso | atom | file | lasso.svg | .lasso, .las, .lasso8, .lasso9, .lassoapp, .ldml |
@@ -191,7 +189,6 @@ Total adicionado: 381
 | music | atom | file | music.svg | .chord, .pd |
 | nano | atom | file | nano.svg | .nanorc.in |
 | nant | atom | file | nant.svg | .build |
-| earth | atom | file | earth.svg | .ncl |
 | neon | atom | file | neon.svg | .neon |
 | neko | atom | file | neko.svg | .neko, .n |
 | amx | atom | file | amx.svg | .axs, .axi |
@@ -239,7 +236,7 @@ Total adicionado: 381
 | rascal | atom | file | rascal.svg | .rsc |
 | rdata | atom | file | rdata.svg | .rdata, .rdb, .rds, .rdx |
 | rdoc | atom | file | rdoc.svg | .rdoc |
-| xojo | atom | file | xojo.svg | .rbbas, .rbfrm, .rbmnu, .rbres, .rbtbar, .rbuistate |
+| xojo | atom | file | xojo.svg | .rbbas, .rbfrm, .rbmnu, .rbres, .rbtbar, .rbuistate, .xojo_code, .xojo_menu, .xojo_report, .xojo_script, .xojo_toolbar, .xojo_window |
 | reasonstudios | atom | file | reasonstudios.svg | .reason, .rns, .rsn, .rx2, .sxt |
 | rebol | atom | file | rebol.svg | .r2, .r3 |
 | red-hat | atom | file | red-hat.svg | .spec |
@@ -270,7 +267,6 @@ Total adicionado: 381
 | sparql | atom | file | sparql.svg | .sparql, .rq |
 | squarespace | atom | file | squarespace.svg | .jsont |
 | sqf | atom | file | sqf.svg | .sqf, .hqf |
-| sql | atom | file | sql.svg | .ddl, .udf, .hql, .viw, .prc, .cql, .db2, .4gl, .per, .spsql |
 | storyist | atom | file | storyist.svg | .story |
 | strings | atom | file | strings.svg | .strings |
 | nailpolish | atom | file | nailpolish.svg | .sc.js, .sc.jsx, .sc.mjs, .sc.cjs, .sc.ts, .sc.tsx |
@@ -298,7 +294,6 @@ Total adicionado: 381
 | wurst | atom | file | wurst.svg | .wurst |
 | x10 | atom | file | x10.svg | .x10 |
 | appstore | atom | file | appstore.svg | .pbxproj, .pbxuser, .xccheckout, .xccolortheme, .xcplugindata, .xcrequiredplugins, .xcscheme, .xcscmblueprint, .xcsettings, .xcuserstate, .xcworkspacedata |
-| xojo | atom | file | xojo.svg | .xojo_code, .xojo_menu, .xojo_report, .xojo_script, .xojo_toolbar, .xojo_window |
 | xpages | atom | file | xpages.svg | .xsp-config, .xsp.metadata |
 | xtend | atom | file | xtend.svg | .xtend |
 | yeoman | atom | file | yeoman.svg | .yo-rc.json |
@@ -306,8 +301,7 @@ Total adicionado: 381
 | zbrush | atom | file | zbrush.svg | .zpr, .ztl |
 | zephir | atom | file | zephir.svg | .zep |
 | zimpl | atom | file | zimpl.svg | .zimpl, .zmpl, .zpl |
-| zork | atom | file | zork.svg | .zap, .xzap, .errors |
-| zork | atom | file | zork.svg | .zil, .mud |
+| zork | atom | file | zork.svg | .zap, .xzap, .errors, .zil, .mud |
 | acre | atom | folder | acre.svg | .acre |
 | agda | atom | folder | agda.svg | .agda |
 | arttext | atom | folder | arttext.svg | .artx |
