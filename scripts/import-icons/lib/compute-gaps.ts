@@ -34,15 +34,21 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
     const nameSet =
       kind === 'folder' ? coverage.folderNames : coverage.fileNames;
     return (
-      ext.some((e) => coverage.extensions.has(e) || taken.has(`e:${e}`)) ||
+      ext.some(
+        (e) =>
+          coverage.extensions.has(e.toLowerCase()) ||
+          taken.has(`e:${e.toLowerCase()}`)
+      ) ||
       names.some(
-        (n) => nameSet.has(n.toLowerCase()) || taken.has(`n:${n.toLowerCase()}`)
+        (n) =>
+          nameSet.has(n.toLowerCase()) ||
+          taken.has(`n:${kind}:${n.toLowerCase()}`)
       )
     );
   };
-  const claim = (ext: string[], names: string[]) => {
-    for (const e of ext) taken.add(`e:${e}`);
-    for (const n of names) taken.add(`n:${n.toLowerCase()}`);
+  const claim = (kind: string, ext: string[], names: string[]) => {
+    for (const e of ext) taken.add(`e:${e.toLowerCase()}`);
+    for (const n of names) taken.add(`n:${kind}:${n.toLowerCase()}`);
   };
 
   // 1) atom (prioridade) — só coloridos com fonte extraível
@@ -53,7 +59,7 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
     const hex = e.colour ? (colours.get(e.colour) ?? null) : null;
     if (!glyph || glyph.font === null || !hex) continue; // não colorido/extraível
     if (e.extensions.length === 0 && e.fileNames.length === 0) continue;
-    claim(e.extensions, e.fileNames);
+    claim(e.kind, e.extensions, e.fileNames);
     gaps.push({
       concept: e.concept,
       kind: e.kind,
@@ -73,7 +79,7 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
     if (covered('file', e.extensions, [])) continue;
     const png = pngFor(afiPngDir, e.concept);
     if (!png) continue;
-    claim(e.extensions, []);
+    claim('file', e.extensions, []);
     gaps.push({
       concept: e.concept,
       kind: 'file',

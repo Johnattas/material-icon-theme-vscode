@@ -69,4 +69,54 @@ describe('computeGaps', () => {
     expect(gaps[0].source).toBe('atom');
     expect(gaps[0].hex).toBe('#f4bf75');
   });
+
+  it('mantém namespaces de nome independentes por kind (folder vs file)', () => {
+    const folderCoverage = {
+      extensions: new Set<string>(),
+      fileNames: new Set<string>(),
+      folderNames: new Set<string>(),
+      concepts: new Set<string>(),
+    };
+    const atomFolderAndFile: AtomEntry[] = [
+      {
+        concept: 'store-folder',
+        kind: 'folder',
+        extensions: [],
+        fileNames: ['store'],
+        colour: 'medium-yellow',
+        priority: 1,
+      },
+      {
+        concept: 'store-file',
+        kind: 'file',
+        extensions: [],
+        fileNames: ['store'],
+        colour: 'medium-blue',
+        priority: 1,
+      },
+    ];
+    const folderGlyphs = new Map([
+      ['store-folder', { font: 'file-icons.woff2', codepoint: 0xe200 }],
+      ['store-file', { font: 'file-icons.woff2', codepoint: 0xe201 }],
+    ]);
+    const folderColours = new Map([
+      ['medium-yellow', '#f4bf75'],
+      ['medium-blue', '#6a9fb5'],
+    ]);
+
+    const gaps = computeGaps({
+      atom: atomFolderAndFile,
+      afi: [],
+      coverage: folderCoverage,
+      glyphs: folderGlyphs,
+      colours: folderColours,
+      afiPngDir: '/nonexistent',
+      afiColors: new Map(),
+    });
+
+    const byConcept = new Map(gaps.map((g) => [g.concept, g]));
+    expect(gaps).toHaveLength(2);
+    expect(byConcept.get('store-folder')?.kind).toBe('folder');
+    expect(byConcept.get('store-file')?.kind).toBe('file');
+  });
 });
