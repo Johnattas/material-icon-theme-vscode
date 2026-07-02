@@ -14,14 +14,19 @@ export function buildTheme(
   theme.fileExtensions ??= {};
   theme.fileNames ??= {};
   theme.folderNames ??= {};
+  theme.folderNamesExpanded ??= {};
 
   for (const g of generated) {
     const def = `${DEF_PREFIX}${g.concept}`;
     theme.iconDefinitions[def] = { iconPath: `icons/${g.iconFile}` };
     for (const ext of g.extensions) theme.fileExtensions[ext] = def;
     for (const name of g.fileNames) {
-      if (g.kind === 'folder') theme.folderNames[name] = def;
-      else theme.fileNames[name] = def;
+      if (g.kind === 'folder') {
+        theme.folderNames[name] = def;
+        theme.folderNamesExpanded[name] = def;
+      } else {
+        theme.fileNames[name] = def;
+      }
     }
   }
   return theme as Manifest;

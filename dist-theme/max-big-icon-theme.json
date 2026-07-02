@@ -14190,7 +14190,17 @@
     ".redislabs": "folder-redis-open",
     "_redislabs": "folder-redis-open",
     "-redislabs": "folder-redis-open",
-    "__redislabs__": "folder-redis-open"
+    "__redislabs__": "folder-redis-open",
+    ".acre": "mbip-acre",
+    ".agda": "mbip-agda",
+    ".bitcoin": "mbip-bitcoin",
+    ".cpan": "mbip-cpan",
+    ".cpanplus": "mbip-cpan",
+    ".dub": "mbip-dub",
+    ".dvc": "mbip-dvc",
+    ".meteor": "mbip-meteor",
+    ".node-gyp": "mbip-node",
+    ".wine": "mbip-wine"
   },
   "rootFolderNames": {},
   "rootFolderNamesExpanded": {},

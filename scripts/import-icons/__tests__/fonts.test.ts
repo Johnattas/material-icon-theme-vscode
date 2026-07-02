@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { MIXIN_TO_WOFF2, resolveFont } from '../lib/fonts';
 
 describe('fonts map', () => {

@@ -22,6 +22,17 @@ const generated: GeneratedIcon[] = [
   },
 ];
 
+const generatedFolder: GeneratedIcon[] = [
+  {
+    concept: 'store',
+    kind: 'folder',
+    iconFile: 'store.svg',
+    extensions: [],
+    fileNames: ['store'],
+    source: 'atom',
+  },
+];
+
 describe('buildTheme', () => {
   it('adiciona def e associação de extensão', () => {
     const t: any = buildTheme(base, generated);
@@ -30,6 +41,12 @@ describe('buildTheme', () => {
     });
     expect(t.fileExtensions['pinia']).toBe('mbip-pinia');
     expect(t.fileExtensions['ts']).toBe('typescript'); // base preservada
+  });
+
+  it('adiciona ícone de pasta em folderNames e folderNamesExpanded', () => {
+    const t: any = buildTheme(base, generatedFolder);
+    expect(t.folderNames['store']).toBe('mbip-store');
+    expect(t.folderNamesExpanded['store']).toBe('mbip-store');
   });
 
   it('valida arquivos presentes', () => {
