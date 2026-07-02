@@ -168,4 +168,57 @@ describe('computeGaps', () => {
     expect(earthGaps[0].extensions.sort()).toEqual(['kml', 'zone']);
     expect(earthGaps[0].hex).toBe('#6a9fb5');
   });
+
+  it('preserva a distinção file/folder quando o mesmo concept aparece nos dois kinds', () => {
+    const gitCoverage = {
+      extensions: new Set<string>(),
+      fileNames: new Set<string>(),
+      folderNames: new Set<string>(),
+      concepts: new Set<string>(),
+    };
+    const atomGit: AtomEntry[] = [
+      {
+        concept: 'git',
+        kind: 'file',
+        extensions: ['gitignore-ext'],
+        fileNames: [],
+        colour: 'medium-yellow',
+        priority: 1,
+      },
+      {
+        concept: 'git',
+        kind: 'folder',
+        extensions: [],
+        fileNames: ['.git'],
+        colour: 'medium-blue',
+        priority: 1,
+      },
+    ];
+    const gitGlyphs = new Map([
+      ['git', { font: 'file-icons.woff2', codepoint: 0xe400 }],
+    ]);
+    const gitColours = new Map([
+      ['medium-yellow', '#f4bf75'],
+      ['medium-blue', '#6a9fb5'],
+    ]);
+
+    const gaps = computeGaps({
+      atom: atomGit,
+      afi: [],
+      coverage: gitCoverage,
+      glyphs: gitGlyphs,
+      colours: gitColours,
+      afiPngDir: '/nonexistent',
+      afiColors: new Map(),
+    });
+
+    const gitGaps = gaps.filter((g) => g.concept === 'git');
+    expect(gitGaps).toHaveLength(2);
+    const kinds = gitGaps.map((g) => g.kind).sort();
+    expect(kinds).toEqual(['file', 'folder']);
+    const fileGap = gitGaps.find((g) => g.kind === 'file');
+    const folderGap = gitGaps.find((g) => g.kind === 'folder');
+    expect(fileGap?.extensions).toEqual(['gitignore-ext']);
+    expect(folderGap?.fileNames).toEqual(['.git']);
+  });
 });

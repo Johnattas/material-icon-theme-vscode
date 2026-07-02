@@ -52,7 +52,7 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
   };
 
   // 1) atom (prioridade) — só coloridos com fonte extraível
-  const atomByConcept = new Map<string, GapItem>();
+  const atomByKindConcept = new Map<string, GapItem>();
   for (const e of atom) {
     if (coverage.concepts.has(e.concept)) continue;
     if (covered(e.kind, e.extensions, e.fileNames)) continue;
@@ -62,7 +62,8 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
     if (e.extensions.length === 0 && e.fileNames.length === 0) continue;
     claim(e.kind, e.extensions, e.fileNames);
 
-    const existing = atomByConcept.get(e.concept);
+    const mergeKey = `${e.kind}:${e.concept}`;
+    const existing = atomByKindConcept.get(mergeKey);
     if (existing) {
       // merge extensions/fileNames into the first-accepted gap; first wins for hex/glyph/kind
       for (const ext of e.extensions) {
@@ -84,7 +85,7 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
       glyph,
       pngPath: null,
     };
-    atomByConcept.set(e.concept, gap);
+    atomByKindConcept.set(mergeKey, gap);
     gaps.push(gap);
   }
 
