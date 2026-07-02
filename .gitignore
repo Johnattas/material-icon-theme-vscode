@@ -18,3 +18,8 @@ Thumbs.db
 .env
 test-results/
 playwright-report/
+
+# Generated VSCode icon-theme output: base SVGs copied from material-icon-theme are
+# regenerable via `npm run import-icons`. Keep dist-theme/package.json, README.md,
+# max-big-icon-theme.json and SUPPORTED_ICONS.md versioned.
+dist-theme/icons/
