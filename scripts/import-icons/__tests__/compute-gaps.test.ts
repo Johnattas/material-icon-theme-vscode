@@ -119,4 +119,53 @@ describe('computeGaps', () => {
     expect(byConcept.get('store-folder')?.kind).toBe('folder');
     expect(byConcept.get('store-file')?.kind).toBe('file');
   });
+
+  it('mescla gaps atom com o mesmo concept em uma única entrada', () => {
+    const earthCoverage = {
+      extensions: new Set<string>(),
+      fileNames: new Set<string>(),
+      folderNames: new Set<string>(),
+      concepts: new Set<string>(),
+    };
+    const atomEarth: AtomEntry[] = [
+      {
+        concept: 'earth',
+        kind: 'file',
+        extensions: ['zone'],
+        fileNames: [],
+        colour: 'medium-blue',
+        priority: 1,
+      },
+      {
+        concept: 'earth',
+        kind: 'file',
+        extensions: ['kml'],
+        fileNames: [],
+        colour: 'medium-yellow',
+        priority: 1,
+      },
+    ];
+    const earthGlyphs = new Map([
+      ['earth', { font: 'file-icons.woff2', codepoint: 0xe300 }],
+    ]);
+    const earthColours = new Map([
+      ['medium-blue', '#6a9fb5'],
+      ['medium-yellow', '#f4bf75'],
+    ]);
+
+    const gaps = computeGaps({
+      atom: atomEarth,
+      afi: [],
+      coverage: earthCoverage,
+      glyphs: earthGlyphs,
+      colours: earthColours,
+      afiPngDir: '/nonexistent',
+      afiColors: new Map(),
+    });
+
+    const earthGaps = gaps.filter((g) => g.concept === 'earth');
+    expect(earthGaps).toHaveLength(1);
+    expect(earthGaps[0].extensions.sort()).toEqual(['kml', 'zone']);
+    expect(earthGaps[0].hex).toBe('#6a9fb5');
+  });
 });

@@ -52,6 +52,7 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
   };
 
   // 1) atom (prioridade) — só coloridos com fonte extraível
+  const atomByConcept = new Map<string, GapItem>();
   for (const e of atom) {
     if (coverage.concepts.has(e.concept)) continue;
     if (covered(e.kind, e.extensions, e.fileNames)) continue;
@@ -60,16 +61,31 @@ export function computeGaps(input: ComputeGapsInput): GapItem[] {
     if (!glyph || glyph.font === null || !hex) continue; // não colorido/extraível
     if (e.extensions.length === 0 && e.fileNames.length === 0) continue;
     claim(e.kind, e.extensions, e.fileNames);
-    gaps.push({
+
+    const existing = atomByConcept.get(e.concept);
+    if (existing) {
+      // merge extensions/fileNames into the first-accepted gap; first wins for hex/glyph/kind
+      for (const ext of e.extensions) {
+        if (!existing.extensions.includes(ext)) existing.extensions.push(ext);
+      }
+      for (const n of e.fileNames) {
+        if (!existing.fileNames.includes(n)) existing.fileNames.push(n);
+      }
+      continue;
+    }
+
+    const gap: GapItem = {
       concept: e.concept,
       kind: e.kind,
       source: 'atom',
-      extensions: e.extensions,
-      fileNames: e.fileNames,
+      extensions: [...e.extensions],
+      fileNames: [...e.fileNames],
       hex,
       glyph,
       pngPath: null,
-    });
+    };
+    atomByConcept.set(e.concept, gap);
+    gaps.push(gap);
   }
 
   // 2) AFileIcon — só o que sobrou (sempre kind 'file'); precisa de PNG
