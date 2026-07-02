@@ -19,12 +19,15 @@ export async function parseColours(
   for (const m of css.matchAll(
     /\.c-([\w-]+)\s*\{\s*color:\s*([^;}]+)\s*;?\s*\}/g
   )) {
-    map.set(m[1], normalizeHex(m[2].trim()));
+    const normalized = normalizeHex(m[2].trim());
+    if (normalized !== null) {
+      map.set(m[1], normalized);
+    }
   }
   return map;
 }
 
-function normalizeHex(v: string): string {
+function normalizeHex(v: string): string | null {
   // less pode emitir #abc, #aabbcc ou rgb(...)
   const short = v.match(/^#([0-9a-fA-F]{3})$/);
   if (short) {
@@ -38,5 +41,5 @@ function normalizeHex(v: string): string {
     const h = (n: string) => Number(n).toString(16).padStart(2, '0');
     return `#${h(rgb[1])}${h(rgb[2])}${h(rgb[3])}`;
   }
-  return v.toLowerCase();
+  return null;
 }
